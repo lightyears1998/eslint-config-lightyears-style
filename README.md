@@ -1,5 +1,7 @@
 # eslint-config-lightyears-style
 
+![Github repo size](https://img.shields.io/github/languages/code-size/lightyears1998/eslint-config-lightyears-style) ![NPM minified size](https://img.shields.io/bundlephobia/min/@lightyears1998/eslint-config-lightyears-style) ![NPM download count](https://img.shields.io/npm/dy/@lightyears1998/eslint-config-lightyears-style)
+
 This is my favorite ESLint configuration.
 
 May also interested in:
