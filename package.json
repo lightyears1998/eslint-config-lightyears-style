@@ -7,6 +7,9 @@
   "author": "lightyears1998 <lightyears1998@hotmail.com>",
   "license": "Unlicense",
   "private": false,
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint index.js --fix"
   },
