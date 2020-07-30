@@ -1,0 +1,17 @@
+{
+  "name": "@lightyears1998/eslint-config-lightyears-style",
+  "version": "1.0.0",
+  "description": "My favorite ESLint configuration",
+  "main": "index.js",
+  "repository": "https://github.com/lightyears1998/eslint-config-lightyears-style",
+  "author": "lightyears1998 <lightyears1998@hotmail.com>",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "lint": "eslint index.js --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1"
+  }
+}
