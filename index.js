@@ -2,6 +2,10 @@
 
 // Rules to be applyed.
 const rules = {
+    "array-bracket-newline": [{
+        minItems:  3,
+        multiline: true
+    }],
     "array-bracket-spacing": ["never"],
     "block-spacing":         ["always"],
     "brace-style":           ["1tbs"],
@@ -40,21 +44,25 @@ const rules = {
         before: true
     }],
     "multiline-comment-style": ["starred-block"],
-    "new-parens":               ["always"],
-    "no-else-return":           [],
-    "no-implicit-coercion":     [],
-    "no-lonely-if":             [],
-    "no-multi-spaces":          [{
+    "new-parens":              ["always"],
+    "no-else-return":          [],
+    "no-implicit-coercion":    [],
+    "no-lonely-if":            [],
+    "no-multi-spaces":         [{
         ignoreEOLComments: true
     }],
     "no-return-await":               [],
     "no-trailing-spaces":            [],
     "no-whitespace-before-property": [],
-    "object-curly-spacing":          ["always"],
-    "quotes":                        ["double"],
-    "semi":                          ["always"],
-    "space-before-blocks":           ["always"],
-    "space-before-function-paren":   [{
+    "object-curly-newline":          [{
+        minProperties: 3,
+        multiline:     true
+    }],
+    "object-curly-spacing":        ["always"],
+    "quotes":                      ["double"],
+    "semi":                        ["always"],
+    "space-before-blocks":         ["always"],
+    "space-before-function-paren": [{
         anonymous:  "always",
         asyncArrow: "always",
         named:      "never"
@@ -81,4 +89,4 @@ Object.keys(rules).forEach(key => {
 
 module.exports = {
     rules
-}
+};

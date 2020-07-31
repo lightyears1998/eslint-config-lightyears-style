@@ -11,4 +11,3 @@ You may also be interested in my other [configuration around ESLint](https://lig
 ---
 
 You can refer to [this](https://eslint.org/docs/developer-guide/shareable-configs) if you'd like to make your own shareable config.
-

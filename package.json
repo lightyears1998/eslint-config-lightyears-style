@@ -15,5 +15,8 @@
   "devDependencies": {
     "eslint": "^7.5.0",
     "eslint-plugin-sort-keys-fix": "^1.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
   }
 }
