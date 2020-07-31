@@ -1,6 +1,8 @@
 # eslint-config-lightyears-style
 
-![Github repo size](https://img.shields.io/github/languages/code-size/lightyears1998/eslint-config-lightyears-style) ![NPM minified size](https://img.shields.io/bundlephobia/min/@lightyears1998/eslint-config-lightyears-style) ![NPM download count](https://img.shields.io/npm/dy/@lightyears1998/eslint-config-lightyears-style)
+[![Github repo size](https://img.shields.io/github/languages/code-size/lightyears1998/eslint-config-lightyears-style)](https://github.com/lightyears1998/eslint-config-lightyears-style)
+[![NPM minified size](https://img.shields.io/bundlephobia/min/@lightyears1998/eslint-config-lightyears-style)](https://www.npmjs.com/package/@lightyears1998/eslint-config-lightyears-style)
+[![NPM download count](https://img.shields.io/npm/dm/@lightyears1998/eslint-config-lightyears-style)](https://www.npmjs.com/package/@lightyears1998/eslint-config-lightyears-style)
 
 This is my favorite ESLint configuration.
 
