@@ -4,7 +4,7 @@
 
 This is my favorite ESLint configuration.
 
-May also interested in:
+You may also be interested in the following extensions:
 
 ``` yml
 extends:
@@ -15,6 +15,8 @@ extends:
   - plugin:import/warnings
   - plugin:import/typescript
 ```
+
+and rules:
 
 ``` yml
 rules:
