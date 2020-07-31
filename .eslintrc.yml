@@ -4,39 +4,5 @@ parserOptions:
   sourceType: module
 plugins:
   - sort-keys-fix
-rules:
-  semi:
-    - warn
-    - always
-  indent:
-    - warn
-    - 4
-  comma-spacing:
-    - warn
-    - {
-      before: false,
-      after: true
-    }
-  sort-keys:
-    - off
-  sort-keys-fix/sort-keys-fix:
-    - warn
-  key-spacing:
-    - warn
-    - {
-      beforeColon: false,
-      afterColon: true,
-      align: value
-    }
-  keyword-spacing:
-    - warn
-    - {
-      before: true,
-      after: true
-    }
-  object-curly-spacing:
-    - warn
-    - always
-  array-bracket-spacing:
-    - warn
-    - never
+extends:
+  - ./index.js
