@@ -1,11 +1,11 @@
 {
   "name": "@lightyears1998/eslint-config-lightyears-style",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "My favorite ESLint configuration",
   "main": "index.js",
   "repository": "https://github.com/lightyears1998/eslint-config-lightyears-style",
   "author": "lightyears1998 <lightyears1998@hotmail.com>",
-  "license": "Unlicense",
+  "license": "UNLICENSED",
   "files": [
     "index.js"
   ],
@@ -14,9 +14,12 @@
   },
   "devDependencies": {
     "eslint": "^7.5.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-sort-keys-fix": "^1.1.1"
   },
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.1"
   }
 }

@@ -54,6 +54,7 @@ const rules = {
   ],
   "multiline-comment-style": ["starred-block"],
   "new-parens": ["always"],
+  "no-multiple-empty-lines": [{ max: 2 }],
   "no-else-return": [],
   "no-implicit-coercion": [],
   "no-lonely-if": [],
@@ -91,7 +92,8 @@ const rules = {
   "unicode-bom": ["never"],
   "wrap-iife": ["inside"],
   "wrap-regex": [],
-  "yoda": ["never"]
+  "yoda": ["never"],
+  "import/order": [{ "newlines-between": "always" }]
 };
 
 // Set rule level to be `warning`.
