@@ -54,7 +54,11 @@ const rules = {
   ],
   "multiline-comment-style": ["starred-block"],
   "new-parens": ["always"],
-  "no-multiple-empty-lines": [{ max: 2 }],
+  "no-multiple-empty-lines": [
+    {
+      max: 2, maxEOF: 0, maxBOF: 0
+    }
+  ],
   "no-else-return": [],
   "no-implicit-coercion": [],
   "no-lonely-if": [],
