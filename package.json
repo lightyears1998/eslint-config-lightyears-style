@@ -1,6 +1,6 @@
 {
   "name": "@lightyears1998/eslint-config-lightyears-style",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "My favorite ESLint configuration",
   "main": "index.js",
   "repository": "https://github.com/lightyears1998/eslint-config-lightyears-style",
@@ -12,14 +12,13 @@
   "scripts": {
     "lint": "eslint index.js --fix"
   },
-  "dependencies": {
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-sort-keys-fix": "^1.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.5.0"
   },
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.1"
   }
 }
