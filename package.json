@@ -1,6 +1,6 @@
 {
   "name": "@lightyears1998/eslint-config-lightyears-style",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "My favorite ESLint configuration",
   "main": "index.js",
   "repository": "https://github.com/lightyears1998/eslint-config-lightyears-style",
