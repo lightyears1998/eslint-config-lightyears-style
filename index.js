@@ -52,7 +52,6 @@ const rules = {
       before: true
     }
   ],
-  "multiline-comment-style": ["starred-block"],
   "new-parens": ["always"],
   "no-multiple-empty-lines": [
     {
@@ -85,7 +84,7 @@ const rules = {
     }
   ],
   "space-in-parens": ["never"],
-  "spaced-comment": ["always"],
+  "spaced-comment": ["always", { "markers": ["/"] }],
   "switch-colon-spacing": [
     {
       after: true,
