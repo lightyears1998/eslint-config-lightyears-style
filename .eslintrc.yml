@@ -3,7 +3,6 @@ env:
 parserOptions:
   sourceType: module
 plugins:
-  - sort-keys-fix
   - import
 extends:
   - ./index.js
