@@ -55,7 +55,7 @@ const rules = {
   "new-parens": ["always"],
   "no-multiple-empty-lines": [
     {
-      max: 2, maxEOF: 0, maxBOF: 0
+      max: 1, maxEOF: 0, maxBOF: 0
     }
   ],
   "no-else-return": [],
