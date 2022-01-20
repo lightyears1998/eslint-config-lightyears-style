@@ -6,6 +6,10 @@
 
 This is my favorite ESLint configuration.
 
+``` sh
+yarn add @lightyears1998/eslint-config-lightyears-style --dev
+```
+
 You may also be interested in my other [configuration around ESLint](https://lightyears1998.github.io/notebook/platform/node/eslint/).
 
 ---
